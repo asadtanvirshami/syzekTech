@@ -4,7 +4,6 @@ import React from "react";
 import AboutUsSection from "./AboutUsSection";
 import Section_4 from "./Section4";
 import PricingSection from "./PricingSection/PricingSection";
-import Slider from "../indexpage/Slider";
 import Count from "./Count";
 import ContactForm from "../../shared/ContactForm";
 
