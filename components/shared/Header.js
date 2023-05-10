@@ -24,8 +24,7 @@ export const Header = () => {
     <>
       <Navbar collapseOnSelect expand="md px-2"  className={scrolled? "header-shrink":"nav-container"} >
         <Navbar.Brand className="" style={{color:"#d6c43c", fontFamily:'monospace', fontWeight:'bold'}}>
-        {/* <img src={"logo.png"} className="img-fluid" style={{height:30}}/> */}
-        SYZEK TECH
+        <img src={"logo.png"} className="img-fluid" style={{height:30}}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -31,7 +31,19 @@ const Section_4 = () => {
                 amount as compared to the market.
               </p>
               <div className="text-center mt-5">
-                <div className=""></div>
+                <div className="">
+                <p className="mt-4" style={{ color: "white" }}>
+                  Our vision is to become the leading Marketing agency and to
+                  provide the best of our solutions globally. We believe that
+                  our growth is not self-dependent, our team plays a very
+                  important role in this development and we make sure to give
+                  our best not only to our customers but to all of our staff as
+                  well. At every step of Digious’s growth, its employee’s growth
+                  is also compulsory. We strictly believe in deserving nature
+                  and give every employee a chance to prove their abilities at
+                  each stage of our hierarchy.
+                </p>
+                </div>
               </div>
             </Col>
           </Row>

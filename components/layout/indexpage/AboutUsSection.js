@@ -11,7 +11,7 @@ export const AboutUsSection = () => {
         <div className="about-us-section">
           <Row style={{ marginTop: 50 }}>
             <Col md={6} style={{ marginTop: 30 }}>
-              <h2 style={{ color: "white" }}></h2>
+              <h2 style={{ color: "white" }}>We are team of experts.</h2>
               <p className="mt-4" style={{ color: "white" }}>
                 Syzek Tech is the fastest leading IT Solutions and Marketing
                 Agency based in Australia, New South Wales providing services
@@ -38,17 +38,8 @@ export const AboutUsSection = () => {
             </Col>
             <Col md={6} className="text-center mt-5">
               <div style={{ justifyContent: "center" }}>
-                <p className="mt-4" style={{ color: "white" }}>
-                  Our vision is to become the leading Marketing agency and to
-                  provide the best of our solutions globally. We believe that
-                  our growth is not self-dependent, our team plays a very
-                  important role in this development and we make sure to give
-                  our best not only to our customers but to all of our staff as
-                  well. At every step of Digious’s growth, its employee’s growth
-                  is also compulsory. We strictly believe in deserving nature
-                  and give every employee a chance to prove their abilities at
-                  each stage of our hierarchy.
-                </p>
+              <img src={'app.png'} className="img-fluid"/>
+               
               </div>
             </Col>
           </Row>

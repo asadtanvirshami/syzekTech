@@ -6,6 +6,7 @@ import Section_4 from "./Section4";
 import PricingSection from "./PricingSection/PricingSection";
 import Count from "./Count";
 import ContactForm from "../../shared/ContactForm";
+import ServicesSection from "./ServicesSection";
 
 export const Index = () => {
   return (
@@ -19,21 +20,22 @@ export const Index = () => {
                   <h1 className="Title">
                     <i className="">
                       {" "}
-                      <h1 className="headline" style={{fontSize:99, fontWeight:'600', color:"black"}}>SYZEK TECH</h1>
+                      {/* <h1 className="headline" style={{fontSize:99, fontWeight:'600', color:"black"}}>SYZEK TECH</h1> */}
+                      <img src={"logo.png"} className="img-fluid" style={{height:150}}/>
                     </i>
                   </h1>
-                  <h1 className="headline">
+                  <h1 className="headline" style={{color:'white'}}>
                     <strong>
-                      "WE CARE ABOUT OUR CUSTOMERS"
+                      "WE CARE ABOUT OUR CUSTOMERS & MAKE SURE THAT THEY ARE SATISFIED"
                     </strong>
                   </h1>
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 col-lg-6 content-div">
                 <div className="content">
-                  <h1 className="headline">
+                  <h1 className="headline" style={{color:'white'}}>
                     <strong>Syzek Tech is the fastest leading IT Solutions and
-                    Marketing Agency</strong>
+                    Marketing Agency. TEAM OF FULLY EXPERIECNCED.</strong>
                   </h1>
                   {/* <div className="m-auto mt-5">
                     <img src={"home-tag.png"}/>
@@ -44,6 +46,7 @@ export const Index = () => {
           </div>
         </section>
       </div>
+      <ServicesSection/>
       <div style={{ marginBottom: 150 }}></div>
       <Section_4/>
       <div style={{ marginTop: 160 }}></div>
